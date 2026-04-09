@@ -107,11 +107,7 @@ FINANCE_ENTITY_MAP: Dict[str, List[Dict[str, Any]]] = {
             "aliases": ["stress test", "scenario analysis"],
             "weight": 0.6,
         },
-        {
-            "name": "monte carlo simulation",
-            "aliases": ["monte carlo", "mcs"],
-            "weight": 0.4,
-        },
+
     ],
 
     # -------------------------------------------------------------------------
@@ -290,6 +286,302 @@ FINANCE_ENTITY_MAP: Dict[str, List[Dict[str, Any]]] = {
             "name": "market capitalization",
             "aliases": ["market cap"],
             "weight": 0.5,
+        },
+    ],
+
+    # -------------------------------------------------------------------------
+    # Fintech & Digital Payments — Modern payment ecosystems
+    # -------------------------------------------------------------------------
+    "fintech_and_digital_payments": [
+        {
+            "name": "fintech",
+            "aliases": ["financial technology", "fin tech"],
+            "weight": 0.9,
+        },
+        {
+            "name": "unified payments interface",
+            "aliases": ["upi", "upi payments", "upi transaction"],
+            "weight": 0.9,
+        },
+        {
+            "name": "digital payments",
+            "aliases": ["digital payment", "electronic payment", "e-payment", "online payment"],
+            "weight": 0.9,
+        },
+        {
+            "name": "payment gateway",
+            "aliases": ["payment processor", "payment processing", "payment aggregator"],
+            "weight": 0.8,
+        },
+        {
+            "name": "mobile wallet",
+            "aliases": ["digital wallet", "e-wallet", "mobile money"],
+            "weight": 0.8,
+        },
+        {
+            "name": "neobank",
+            "aliases": ["neobanking", "digital-only bank", "challenger bank"],
+            "weight": 0.7,
+        },
+        {
+            "name": "buy now pay later",
+            "aliases": ["bnpl", "pay later", "deferred payment"],
+            "weight": 0.7,
+        },
+        {
+            "name": "peer to peer lending",
+            "aliases": ["p2p lending", "peer lending", "marketplace lending"],
+            "weight": 0.6,
+        },
+        {
+            "name": "fraud detection",
+            "aliases": ["fraud prevention", "anti fraud", "transaction monitoring"],
+            "weight": 0.8,
+        },
+        {
+            "name": "real time gross settlement",
+            "aliases": ["rtgs", "real time settlement"],
+            "weight": 0.6,
+        },
+        {
+            "name": "national electronic funds transfer",
+            "aliases": ["neft", "electronic funds transfer"],
+            "weight": 0.5,
+        },
+        {
+            "name": "qr code payments",
+            "aliases": ["qr payment", "scan and pay", "qr code"],
+            "weight": 0.6,
+        },
+        {
+            "name": "cryptocurrency",
+            "aliases": ["crypto", "digital currency", "bitcoin", "blockchain"],
+            "weight": 0.7,
+        },
+        {
+            "name": "central bank digital currency",
+            "aliases": ["cbdc", "digital rupee", "e-rupee"],
+            "weight": 0.6,
+        },
+        {
+            "name": "embedded finance",
+            "aliases": ["embedded payments", "banking as a service", "baas"],
+            "weight": 0.5,
+        },
+    ],
+
+    # -------------------------------------------------------------------------
+    # Banking Systems — Core banking and institutional infrastructure
+    # -------------------------------------------------------------------------
+    "banking_systems": [
+        {
+            "name": "reserve bank of india",
+            "aliases": ["rbi", "central bank", "rbi guidelines"],
+            "weight": 0.9,
+        },
+        {
+            "name": "core banking system",
+            "aliases": ["cbs", "core banking", "core banking solution"],
+            "weight": 0.8,
+        },
+        {
+            "name": "net banking",
+            "aliases": ["internet banking", "online banking", "e-banking"],
+            "weight": 0.7,
+        },
+        {
+            "name": "non performing asset",
+            "aliases": ["npa", "non performing loan", "bad loan", "npl"],
+            "weight": 0.8,
+        },
+        {
+            "name": "capital adequacy ratio",
+            "aliases": ["car", "crar", "capital adequacy"],
+            "weight": 0.7,
+        },
+        {
+            "name": "deposit insurance",
+            "aliases": ["dicgc", "deposit guarantee", "insured deposits"],
+            "weight": 0.5,
+        },
+        {
+            "name": "priority sector lending",
+            "aliases": ["psl", "priority lending"],
+            "weight": 0.6,
+        },
+        {
+            "name": "credit score",
+            "aliases": ["cibil score", "credit rating", "credit bureau", "fico score"],
+            "weight": 0.7,
+        },
+        {
+            "name": "mortgage",
+            "aliases": ["home loan", "housing loan", "mortgage lending"],
+            "weight": 0.6,
+        },
+        {
+            "name": "trade finance",
+            "aliases": ["letter of credit", "lc", "export finance", "import finance"],
+            "weight": 0.6,
+        },
+        {
+            "name": "treasury management",
+            "aliases": ["treasury operations", "treasury"],
+            "weight": 0.5,
+        },
+    ],
+
+    # -------------------------------------------------------------------------
+    # Financial Technology Infrastructure — APIs, data, and platforms
+    # -------------------------------------------------------------------------
+    "financial_technology_infrastructure": [
+        {
+            "name": "open banking",
+            "aliases": ["open banking api", "account aggregation", "open finance"],
+            "weight": 0.8,
+        },
+        {
+            "name": "api banking",
+            "aliases": ["banking api", "financial api", "api integration"],
+            "weight": 0.7,
+        },
+        {
+            "name": "payment orchestration",
+            "aliases": ["payment routing", "payment switch", "payment hub"],
+            "weight": 0.6,
+        },
+        {
+            "name": "regtech",
+            "aliases": ["regulatory technology", "compliance technology", "compliance automation"],
+            "weight": 0.7,
+        },
+        {
+            "name": "insurtech",
+            "aliases": ["insurance technology", "digital insurance"],
+            "weight": 0.6,
+        },
+        {
+            "name": "wealthtech",
+            "aliases": ["wealth technology", "robo advisor", "robo advisory", "automated investing"],
+            "weight": 0.6,
+        },
+        {
+            "name": "data analytics in finance",
+            "aliases": ["financial analytics", "big data finance", "financial data analytics"],
+            "weight": 0.7,
+        },
+        {
+            "name": "cloud banking",
+            "aliases": ["cloud infrastructure", "cloud native banking", "saas banking"],
+            "weight": 0.5,
+        },
+        {
+            "name": "tokenization",
+            "aliases": ["asset tokenization", "payment tokenization", "token"],
+            "weight": 0.5,
+        },
+        {
+            "name": "account aggregator",
+            "aliases": ["aa framework", "financial data sharing", "consent based data"],
+            "weight": 0.6,
+        },
+
+        {
+            "name": "digital lending",
+            "aliases": ["online lending", "lending platform", "digital loan"],
+            "weight": 0.7,
+        },
+    ],
+
+    # -------------------------------------------------------------------------
+    # Corporate Finance & Investment Banking
+    # -------------------------------------------------------------------------
+    "investment_banking": [
+        {
+            "name": "mergers and acquisitions",
+            "aliases": ["m&a", "merger", "acquisition", "corporate restructuring"],
+            "weight": 0.9,
+        },
+        {
+            "name": "initial public offering",
+            "aliases": ["ipo", "going public", "public listing"],
+            "weight": 0.8,
+        },
+        {
+            "name": "private equity",
+            "aliases": ["pe", "pe firm", "buyout"],
+            "weight": 0.8,
+        },
+        {
+            "name": "venture capital",
+            "aliases": ["vc", "seed funding", "series a", "startup funding"],
+            "weight": 0.7,
+        },
+        {
+            "name": "leveraged buyout",
+            "aliases": ["lbo", "leveraged buyout transaction"],
+            "weight": 0.6,
+        },
+        {
+            "name": "underwriting",
+            "aliases": ["underwriter", "securities underwriting"],
+            "weight": 0.7,
+        },
+        {
+            "name": "syndicated loan",
+            "aliases": ["loan syndication", "syndicated lending"],
+            "weight": 0.6,
+        },
+        {
+            "name": "special purpose acquisition company",
+            "aliases": ["spac", "blank check company"],
+            "weight": 0.5,
+        },
+    ],
+
+    # -------------------------------------------------------------------------
+    # Accounting & Taxation
+    # -------------------------------------------------------------------------
+    "accounting_and_taxation": [
+        {
+            "name": "generally accepted accounting principles",
+            "aliases": ["gaap", "us gaap"],
+            "weight": 0.8,
+        },
+        {
+            "name": "international financial reporting standards",
+            "aliases": ["ifrs", "international accounting standards"],
+            "weight": 0.8,
+        },
+        {
+            "name": "audited financial statements",
+            "aliases": ["financial statements", "balance sheet", "income statement", "cash flow statement"],
+            "weight": 0.9,
+        },
+        {
+            "name": "tax planning",
+            "aliases": ["tax optimization", "tax strategy", "corporate tax planning"],
+            "weight": 0.7,
+        },
+        {
+            "name": "goods and services tax",
+            "aliases": ["gst", "value added tax", "vat"],
+            "weight": 0.7,
+        },
+        {
+            "name": "depreciation and amortization",
+            "aliases": ["depreciation", "amortization", "ebitda"],
+            "weight": 0.7,
+        },
+        {
+            "name": "transfer pricing",
+            "aliases": ["transfer price", "arm's length principle"],
+            "weight": 0.6,
+        },
+        {
+            "name": "working capital management",
+            "aliases": ["working capital", "net working capital"],
+            "weight": 0.8,
         },
     ],
 }
@@ -527,6 +819,297 @@ MANUFACTURING_ENTITY_MAP: Dict[str, List[Dict[str, Any]]] = {
             "name": "cyber physical systems",
             "aliases": ["cps"],
             "weight": 0.5,
+        },
+    ],
+
+    # -------------------------------------------------------------------------
+    # Robotics & CNC — Physical automation and machining
+    # -------------------------------------------------------------------------
+    "robotics_and_cnc": [
+        {
+            "name": "industrial robot",
+            "aliases": ["industrial robotics", "robotic arm", "robot arm", "manufacturing robot"],
+            "weight": 0.9,
+        },
+        {
+            "name": "cnc machining",
+            "aliases": ["cnc", "cnc machine", "computer numerical control", "cnc milling"],
+            "weight": 0.9,
+        },
+        {
+            "name": "collaborative robot",
+            "aliases": ["cobot", "cobots", "human robot collaboration"],
+            "weight": 0.8,
+        },
+        {
+            "name": "robotic process automation",
+            "aliases": ["rpa", "rpa in manufacturing"],
+            "weight": 0.7,
+        },
+        {
+            "name": "computer aided manufacturing",
+            "aliases": ["cam", "cam software"],
+            "weight": 0.7,
+        },
+        {
+            "name": "computer aided design",
+            "aliases": ["cad", "cad software", "cad modeling"],
+            "weight": 0.7,
+        },
+        {
+            "name": "programmable logic controller",
+            "aliases": ["plc", "plc programming", "plc controller"],
+            "weight": 0.8,
+        },
+        {
+            "name": "servo motor",
+            "aliases": ["servo drive", "servo system", "stepper motor"],
+            "weight": 0.5,
+        },
+
+        {
+            "name": "machine vision",
+            "aliases": ["computer vision", "vision system", "vision inspection"],
+            "weight": 0.7,
+        },
+        {
+            "name": "laser cutting",
+            "aliases": ["laser cutter", "laser machining", "laser processing"],
+            "weight": 0.5,
+        },
+        {
+            "name": "pick and place",
+            "aliases": ["pick and place robot", "pick place automation"],
+            "weight": 0.5,
+        },
+        {
+            "name": "welding robot",
+            "aliases": ["robotic welding", "automated welding", "arc welding robot"],
+            "weight": 0.5,
+        },
+    ],
+
+    # -------------------------------------------------------------------------
+    # Factory Automation & IIoT — Connected systems and smart factories
+    # -------------------------------------------------------------------------
+    "factory_automation_and_iiot": [
+        {
+            "name": "industrial internet of things",
+            "aliases": ["iiot", "industrial iot", "iiot platform", "iiot sensors"],
+            "weight": 0.9,
+        },
+        {
+            "name": "scada",
+            "aliases": ["supervisory control", "scada system", "supervisory control and data acquisition"],
+            "weight": 0.8,
+        },
+        {
+            "name": "manufacturing execution system",
+            "aliases": ["mes", "mes software", "shop floor system"],
+            "weight": 0.8,
+        },
+        {
+            "name": "enterprise resource planning",
+            "aliases": ["erp", "erp system", "erp software", "sap"],
+            "weight": 0.8,
+        },
+        {
+            "name": "distributed control system",
+            "aliases": ["dcs", "dcs controller"],
+            "weight": 0.6,
+        },
+        {
+            "name": "human machine interface",
+            "aliases": ["hmi", "hmi panel", "operator interface"],
+            "weight": 0.7,
+        },
+        {
+            "name": "edge computing",
+            "aliases": ["edge analytics", "edge device", "edge processing"],
+            "weight": 0.7,
+        },
+        {
+            "name": "industrial sensor",
+            "aliases": ["sensor network", "smart sensor", "industrial sensors", "proximity sensor"],
+            "weight": 0.7,
+        },
+        {
+            "name": "factory floor connectivity",
+            "aliases": ["industrial ethernet", "profinet", "modbus", "opc ua"],
+            "weight": 0.6,
+        },
+        {
+            "name": "automated guided vehicle",
+            "aliases": ["agv", "autonomous mobile robot", "amr"],
+            "weight": 0.6,
+        },
+        {
+            "name": "conveyor system",
+            "aliases": ["conveyor belt", "material handling", "conveyor automation"],
+            "weight": 0.6,
+        },
+        {
+            "name": "smart factory",
+            "aliases": ["connected factory", "lights out manufacturing", "dark factory"],
+            "weight": 0.7,
+        },
+        {
+            "name": "real time monitoring",
+            "aliases": ["condition monitoring", "remote monitoring", "live monitoring"],
+            "weight": 0.7,
+        },
+        {
+            "name": "digital thread",
+            "aliases": ["digital continuity", "product lifecycle data"],
+            "weight": 0.5,
+        },
+    ],
+
+    # -------------------------------------------------------------------------
+    # Industrial Safety & Sustainability — Compliance, safety, and green mfg
+    # -------------------------------------------------------------------------
+    "industrial_safety_and_sustainability": [
+        {
+            "name": "occupational safety",
+            "aliases": ["osha", "workplace safety", "industrial safety", "safety compliance"],
+            "weight": 0.8,
+        },
+        {
+            "name": "environmental health and safety",
+            "aliases": ["ehs", "ehs management", "ehs compliance"],
+            "weight": 0.7,
+        },
+        {
+            "name": "lockout tagout",
+            "aliases": ["loto", "lock out tag out", "energy isolation"],
+            "weight": 0.5,
+        },
+        {
+            "name": "personal protective equipment",
+            "aliases": ["ppe", "safety gear", "safety equipment"],
+            "weight": 0.6,
+        },
+        {
+            "name": "hazard analysis",
+            "aliases": ["hazop", "risk assessment", "hazard identification"],
+            "weight": 0.6,
+        },
+        {
+            "name": "carbon footprint",
+            "aliases": ["carbon emissions", "co2 emissions", "greenhouse gas"],
+            "weight": 0.7,
+        },
+        {
+            "name": "sustainable manufacturing",
+            "aliases": ["green manufacturing", "eco friendly manufacturing", "sustainability"],
+            "weight": 0.8,
+        },
+        {
+            "name": "circular economy",
+            "aliases": ["circular manufacturing", "closed loop manufacturing", "recycling"],
+            "weight": 0.6,
+        },
+        {
+            "name": "energy efficiency",
+            "aliases": ["energy management", "power consumption", "energy optimization"],
+            "weight": 0.7,
+        },
+        {
+            "name": "waste management",
+            "aliases": ["industrial waste", "waste disposal", "effluent treatment"],
+            "weight": 0.6,
+        },
+        {
+            "name": "iso 14001",
+            "aliases": ["environmental management system", "ems certification", "iso 14001 certification"],
+            "weight": 0.5,
+        },
+        {
+            "name": "iso 45001",
+            "aliases": ["occupational health", "ohsms", "safety management system"],
+            "weight": 0.5,
+        },
+    ],
+
+    # -------------------------------------------------------------------------
+    # Product Lifecycle & Engineering
+    # -------------------------------------------------------------------------
+    "product_lifecycle_management": [
+        {
+            "name": "product lifecycle management",
+            "aliases": ["plm", "product lifecycle", "plm software"],
+            "weight": 0.9,
+        },
+        {
+            "name": "rapid prototyping",
+            "aliases": ["prototyping", "functional prototype", "mockup"],
+            "weight": 0.7,
+        },
+        {
+            "name": "concurrent engineering",
+            "aliases": ["simultaneous engineering", "integrated product development"],
+            "weight": 0.6,
+        },
+        {
+            "name": "reverse engineering",
+            "aliases": ["reverse engineered", "back engineering"],
+            "weight": 0.5,
+        },
+        {
+            "name": "design for manufacturability",
+            "aliases": ["dfm", "design for manufacturing", "dfma"],
+            "weight": 0.8,
+        },
+        {
+            "name": "computer aided engineering",
+            "aliases": ["cae", "finite element analysis", "fea"],
+            "weight": 0.7,
+        },
+        {
+            "name": "new product development",
+            "aliases": ["npd", "product development process"],
+            "weight": 0.8,
+        },
+    ],
+
+    # -------------------------------------------------------------------------
+    # Advanced Materials & Processing
+    # -------------------------------------------------------------------------
+    "advanced_materials": [
+        {
+            "name": "composite materials",
+            "aliases": ["composites", "carbon fiber", "fiberglass", "frp"],
+            "weight": 0.8,
+        },
+        {
+            "name": "nanomaterials",
+            "aliases": ["nanotechnology", "nanoparticles", "nanotech in manufacturing"],
+            "weight": 0.7,
+        },
+        {
+            "name": "smart materials",
+            "aliases": ["shape memory alloys", "piezoelectric materials"],
+            "weight": 0.6,
+        },
+        {
+            "name": "lightweighting",
+            "aliases": ["lightweight materials", "weight reduction strategy"],
+            "weight": 0.7,
+        },
+        {
+            "name": "metallurgy",
+            "aliases": ["metal alloy", "heat treatment", "alloys"],
+            "weight": 0.7,
+        },
+        {
+            "name": "surface engineering",
+            "aliases": ["surface coating", "thin films", "plating"],
+            "weight": 0.5,
+        },
+        {
+            "name": "polymer processing",
+            "aliases": ["injection molding", "extrusion", "thermoplastics"],
+            "weight": 0.8,
         },
     ],
 }
